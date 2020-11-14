@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 80%;
+    margin:0 auto;
+}
+
+header{
+    height: 70px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    background: white;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    position: relative;  
+}
+
+header img{
+    margin-top: -107px;
+    margin-left: 50px;
+    width: 20%;
+}
+
+header ul{
+    float: right;
+    padding: 0px 80px;
+}
+
+header ul li{
+    margin-top: 25px;
+    display: inline-block;
+    padding: 0 11px;
+}
+
+header a{
+    color: #707070;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header a:hover{
+    color: #008000;
+    font-weight: bold;
+}
+
+.blok{
+    padding: 7px;
+    background-color: #008000;
+}
+
+.blok h1{
+    color: white;
+    font-size: 20px;
+    padding: 7px 7px;
+    margin-left: 55px;
+}
+
+.kotak{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.kotak .boxes{
+    width: 27%;
+    padding: 100px 0;
+    box-sizing: border-box;
+    border: 0.5px solid #d8d6d6;
+    text-align: center;
+    float: left;
+    margin: -20px;
+    margin-left: 38px;
+}
+
+.teks p{
+    padding-top: 10%;
+    margin: 10px 10px;
+    text-align: center;
+    color: #707070;
+    font-size: 15px;
+}
+
+.teks h1{
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+    color: #3b3b3b;
+}
+
+footer{
+    background-color: #3b3b3b;
+    padding: 25px;
+    text-align: center;
+    margin-top: 40%;
+}
+
+.satu p{
+    text-align: center ;
+    color: white;
+    font-size: 15px;
+}
