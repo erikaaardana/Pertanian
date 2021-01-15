@@ -195,12 +195,14 @@ div[class*="col"] {
 
 .background-abu {
 	background: #f5f5f5;
-	padding-top: 60px;
+	padding-top: 80px;
 	padding-bottom: 60px;
 }
 
 .judul {
 	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 
 .deskripsi {
@@ -241,6 +243,13 @@ div[class*="col"] {
 .kategori li {
 	list-style: inside;
 	line-height: 2;
+}
+
+.form1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;	  
 }
 
 /*Responsive*/
