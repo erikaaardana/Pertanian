@@ -105,7 +105,7 @@ div[class*="col"] {
 .kartu {
 	border: 1px solid gray;
 	border-radius: 5px;
-	padding: 30px;
+	padding: 70px;
 	line-height: 1.5;
 }
 
@@ -189,18 +189,20 @@ div[class*="col"] {
 
 .background-putih {
 	background: #ffffff;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .background-abu {
 	background: #f5f5f5;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 80px;
+	padding-bottom: 60px;
 }
 
 .judul {
 	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 
 .deskripsi {
@@ -307,6 +309,13 @@ p {
 .kategori li {
 	list-style: inside;
 	line-height: 2;
+}
+
+.form1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;	  
 }
 
 /*Responsive*/
